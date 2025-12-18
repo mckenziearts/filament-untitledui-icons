@@ -1,38 +1,35 @@
 {
-  "name": "{vendor}/filament-{iconset}-icons",
-  "description": "{IconSet} icon pack for Filament Icons",
+  "name": "mckenziearts/filament-untitledui-icons",
+  "description": "Untitledui icon pack for Filament Icons",
   "type": "library",
   "license": "MIT",
   "keywords": [
     "Laravel",
     "Filament",
     "icons",
-    "{IconSet}",
-    "replace",
-    "swap"
+    "Untitledui"
   ],
-  "homepage": "{homepage}",
   "authors": [
     {
       "role": "Developer",
-      "name": "{author_name}",
-      "email": "{author_email}"
+      "name": "Arthur Monney",
+      "email": "monneylobe@gmail.com"
     }
   ],
   "require": {
     "php": "^8.2",
     "filafly/filament-icons": "^2.0",
-    "{blade-icon-package}": "^x.x",
+    "mckenziearts/blade-untitledui-icons": "^1.4",
     "filament/filament": "^4.0"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.22"
   },
   "autoload": {
     "psr-4": {
-      "{vendor_namespace}\\\\Icons\\\\{IconSet}\\\\": "src/"
+      "Mckenziearts\\Icons\\Untitledui\\": "src/"
     }
   },
   "minimum-stability": "stable",
-  "prefer-stable": true,
-  "require-dev": {
-    "laravel/pint": "^1.22"
-  }
+  "prefer-stable": true
 }
