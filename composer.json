@@ -1,0 +1,38 @@
+{
+  "name": "{vendor}/filament-{iconset}-icons",
+  "description": "{IconSet} icon pack for Filament Icons",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "Laravel",
+    "Filament",
+    "icons",
+    "{IconSet}",
+    "replace",
+    "swap"
+  ],
+  "homepage": "{homepage}",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "{author_name}",
+      "email": "{author_email}"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "filafly/filament-icons": "^2.0",
+    "{blade-icon-package}": "^x.x",
+    "filament/filament": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "{vendor_namespace}\\\\Icons\\\\{IconSet}\\\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require-dev": {
+    "laravel/pint": "^1.22"
+  }
+}
