@@ -20,7 +20,7 @@
     "php": "^8.2",
     "filafly/filament-icons": "^2.0",
     "mckenziearts/blade-untitledui-icons": "^1.4",
-    "filament/filament": "^4.0"
+    "filament/filament": "^4.0 || ^5.0"
   },
   "require-dev": {
     "laravel/pint": "^1.22"
