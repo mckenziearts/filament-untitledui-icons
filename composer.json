@@ -19,7 +19,7 @@
   "require": {
     "php": "^8.2",
     "filafly/filament-icons": "^2.0",
-    "mckenziearts/blade-untitledui-icons": "^1.4",
+    "mckenziearts/blade-untitledui-icons": "^1.5",
     "filament/filament": "^4.0 || ^5.0"
   },
   "require-dev": {
